@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/"
+version="2005-1" xml:lang="en">
+<head>
+<meta name="dtb:uid" content="com.robinsloan.annabel-scheme-new-golden-gate"/>
+</head>
+<docTitle>
+<text>Annabel Scheme and the Adventure of the New Golden Gate</text>
+</docTitle>
+<navMap>
+<navPoint id="note_to_readers">
+<navLabel>
+<text>Note to Readers</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#note_to_readers"/>
+</navPoint>
+<navPoint id="the_woman_who_vanished">
+<navLabel>
+<text>The Woman Who Vanished</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_woman_who_vanished"/>
+</navPoint>
+<navPoint id="as_easy_as_abcd">
+<navLabel>
+<text>As Easy As ABCD</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#as_easy_as_abcd"/>
+</navPoint>
+<navPoint id="the_painter_s_algorithm">
+<navLabel>
+<text>The Painter’s Algorithm</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_painter_s_algorithm"/>
+</navPoint>
+<navPoint id="three_coffees">
+<navLabel>
+<text>Three Coffees</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#three_coffees"/>
+</navPoint>
+<navPoint id="the_sea_witch">
+<navLabel>
+<text>The Sea-Witch</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_sea_witch"/>
+</navPoint>
+<navPoint id="the_machine">
+<navLabel>
+<text>The Machine</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_machine"/>
+</navPoint>
+<navPoint id="the_presser">
+<navLabel>
+<text>The Presser</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_presser"/>
+</navPoint>
+<navPoint id="entra_la_lengua">
+<navLabel>
+<text>Entra La Lengua</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#entra_la_lengua"/>
+</navPoint>
+<navPoint id="shark_teeth">
+<navLabel>
+<text>Shark Teeth</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#shark_teeth"/>
+</navPoint>
+<navPoint id="basilisk_house">
+<navLabel>
+<text>Basilisk House</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#basilisk_house"/>
+</navPoint>
+<navPoint id="the_sunken_ship">
+<navLabel>
+<text>The Sunken Ship</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_sunken_ship"/>
+</navPoint>
+<navPoint id="the_new_golden_gate">
+<navLabel>
+<text>The New Golden Gate</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_new_golden_gate"/>
+</navPoint>
+<navPoint id="one_of_the_good_ones">
+<navLabel>
+<text>One of the Good Ones</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#one_of_the_good_ones"/>
+</navPoint>
+<navPoint id="alignment">
+<navLabel>
+<text>Alignment</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#alignment"/>
+</navPoint>
+<navPoint id="best_of_all_possible">
+<navLabel>
+<text>Best of All Possible</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#best_of_all_possible"/>
+</navPoint>
+<navPoint id="colophon">
+<navLabel>
+<text>Colophon</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#colophon"/>
+</navPoint>
+
+</navMap>
+</ncx>

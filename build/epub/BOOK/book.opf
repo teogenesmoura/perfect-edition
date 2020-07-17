@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="en-US" prefix="cc: http://creativecommons.org/ns#">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:identifier id="uid">com.robinsloan.annabel-scheme-new-golden-gate</dc:identifier>
+<dc:title>Annabel Scheme and the Adventure of the New Golden Gate</dc:title>
+<dc:creator>Robin Sloan</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:date>2020-07-01</dc:date>
+<dc:description>This is a story originally published as a newspaper serial in the Mercury News and the East Bay Times.</dc:description>
+<meta property="dcterms:modified">2020-07-17T13:59:07Z</meta>
+<dc:rights>This work is shared with the public using the Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.</dc:rights>
+<link rel="cc:license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+<meta property="cc:attributionURL">https://www.robinsloan.com/book/annabel-scheme-new-golden-gate</meta>
+</metadata>
+<manifest>
+<item id="annabel-scheme-new-golden-gate" href="annabel-scheme-new-golden-gate-content.xhtml" media-type="application/xhtml+xml" />
+<item id="nav" href="annabel-scheme-new-golden-gate-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
+<item id="css" href="epub.css" media-type="text/css" />
+
+<item id="img1" href="img/scheme-cover-web.png" media-type="image/png" properties="cover-image" />
+<item id="img2" href="img/genthe-fire.png" media-type="image/png" />
+
+
+<item id="font1" href="font/Vollkorn-BlackItalic.woff2" media-type="font/woff2" />
+<item id="font2" href="font/Vollkorn-Black.woff2" media-type="font/woff2" />
+<item id="font3" href="font/Vollkorn-Italic.woff2" media-type="font/woff2" />
+<item id="font4" href="font/Vollkorn-Semibold.woff2" media-type="font/woff2" />
+<item id="font5" href="font/Vollkorn-Bold.woff2" media-type="font/woff2" />
+<item id="font6" href="font/Vollkorn-BoldItalic.woff2" media-type="font/woff2" />
+<item id="font7" href="font/Vollkorn-SemiboldItalic.woff2" media-type="font/woff2" />
+<item id="font8" href="font/Vollkorn-Regular.woff2" media-type="font/woff2" />
+
+
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+</manifest>
+<spine toc="ncx">
+<itemref idref="annabel-scheme-new-golden-gate" />
+</spine>
+</package>
