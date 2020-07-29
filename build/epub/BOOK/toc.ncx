@@ -20,6 +20,18 @@ version="2005-1" xml:lang="en">
 </navLabel>
 <content src="annabel-scheme-new-golden-gate-content.xhtml#the_woman_who_vanished"/>
 </navPoint>
+<navPoint id="the_woman_who_vanished">
+<navLabel>
+<text>The Woman Who Vanished</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_woman_who_vanished"/>
+</navPoint>
+<navPoint id="the_woman_who_vanished">
+<navLabel>
+<text>The Woman Who Vanished</text>
+</navLabel>
+<content src="annabel-scheme-new-golden-gate-content.xhtml#the_woman_who_vanished"/>
+</navPoint>
 <navPoint id="as_easy_as_abcd">
 <navLabel>
 <text>As Easy As ABCD</text>
