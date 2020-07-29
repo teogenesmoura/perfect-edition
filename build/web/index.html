@@ -16,9 +16,40 @@ Kobayashi Issa
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+<!-- OpenGraph metadata -->
+<meta property="og:title" content="Annabel Scheme and the Adventure of the New Golden Gate" />
+<meta property="og:site_name" content="Annabel Scheme and the Adventure of the New Golden Gate by Robin Sloan" />
+<meta property="og:type" content="book" />
+<meta property="og:book:author" content="Robin Sloan" />
+<meta property="og:image" content="https://www.robinsloan.com/book/annabel-scheme-new-golden-gate/img/scheme-cover-web.png" />
+<meta property="og:description" content="This is a story originally published as a newspaper serial in the Mercury News and the East Bay Times." />
+<meta property="og:url" content="https://www.robinsloan.com/book/annabel-scheme-new-golden-gate/" />
+
+
+<!-- Twitter Card metadata -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@robinsloan" />
+<meta name="twitter:title" content="Annabel Scheme and the Adventure of the New Golden Gate by Robin Sloan" />
+<meta name="twitter:description" content="This is a story originally published as a newspaper serial in the Mercury News and the East Bay Times." />
+<meta name="twitter:image" content="https://www.robinsloan.com/book/annabel-scheme-new-golden-gate/img/scheme-cover-web.png" />
+
+
+<!-- JSON-LD metadata -->
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Book",
+"name": "Annabel Scheme and the Adventure of the New Golden Gate",
+"author": "Robin Sloan",
+"description": "This is a story originally published as a newspaper serial in the Mercury News and the East Bay Times.",
+"url": "https://www.robinsloan.com/book/annabel-scheme-new-golden-gate/"
+}
+</script>
+
+
 <meta name="generator" content="These human fingers" />
 
-<link href="css/web-book-eZoIXhNCtqH5.css" type="text/css" rel="stylesheet" />
+<link href="css/web-book-HaO6V4ayLkfk.css" type="text/css" rel="stylesheet" />
 
 <title>Annabel Scheme and the Adventure of the New Golden Gate</title>
 <script>
@@ -105,6 +136,13 @@ return Number( getComputedStyle(bookElement)
 .replace("px", "") );
 }
 
+function getRect(element) {
+// Terrible hack for Firefox, which treats getBoundingClientRect as an
+// inner dimension for some unknown reason.
+let rects = element.getClientRects();
+return rects[rects.length - 1]
+}
+
 function turnPageForward() {
 turnPage(1);
 }
@@ -139,7 +177,7 @@ writePageNumber( closestPageNumber + 1 ); // hacky
 
 // there's got to be a better way to do this...
 if ( (turnDirection > 0) &&
-( endElement.getBoundingClientRect().x < window.innerWidth )
+( getRect(endElement).x < window.innerWidth )
 ) {
 
 return;
@@ -162,7 +200,7 @@ let pageEdge = pageNumber * columnTotal;
 writePageNumber(pageNumber);
 
 // the cute tiny bookmark
-let bookmarkElement = document.querySelector("div#bookmark");
+let bookmarkElement = document.querySelector("div.bookmark");
 bookmarkElement.style.display = "block";
 // bookmarkElement.style.top = `0px`;
 bookmarkElement.style.left = `${pageEdge + columnWidth / 2.0}px`;
@@ -181,8 +219,8 @@ return heading.getAttribute("id") == editedAnchor;
 
 anchoredHeading.scrollIntoView();
 
-let wherePageEdgeShouldBe = ( window.innerWidth - bookElement.getBoundingClientRect().width ) / 2.0;
-let offset = anchoredHeading.getBoundingClientRect().x - wherePageEdgeShouldBe;
+let wherePageEdgeShouldBe = ( window.innerWidth - getRect(bookelement).width ) / 2.0;
+let offset = getRect(anchoredHeading).x - wherePageEdgeShouldBe;
 
 document.body.scrollLeft += offset;
 }
@@ -236,7 +274,7 @@ readPageNumber();
 
 // toc button
 
-document.querySelector("#toc-button").addEventListener("click", e => {
+document.querySelector("button.toc-button").addEventListener("click", e => {
 toggleNav();
 e.stopPropagation();
 });
@@ -388,7 +426,7 @@ turnToAnchor( window.location.hash )
 </g>
 </svg>
 </div>
-<ol><li><a href="#note_to_readers">Note to Readers</a></li><li><a href="#the_woman_who_vanished">The Woman Who Vanished</a></li><li><a href="#the_woman_who_vanished">The Woman Who Vanished</a></li><li><a href="#the_woman_who_vanished">The Woman Who Vanished</a></li><li><a href="#as_easy_as_abcd">As Easy As ABCD</a></li><li><a href="#the_painter_s_algorithm">The Painter’s Algorithm</a></li><li><a href="#three_coffees">Three Coffees</a></li><li><a href="#the_sea_witch">The Sea-Witch</a></li><li><a href="#the_machine">The Machine</a></li><li><a href="#the_presser">The Presser</a></li><li><a href="#entra_la_lengua">Entra La Lengua</a></li><li><a href="#shark_teeth">Shark Teeth</a></li><li><a href="#basilisk_house">Basilisk House</a></li><li><a href="#the_sunken_ship">The Sunken Ship</a></li><li><a href="#the_new_golden_gate">The New Golden Gate</a></li><li><a href="#one_of_the_good_ones">One of the Good Ones</a></li><li><a href="#alignment">Alignment</a></li><li><a href="#best_of_all_possible">Best of All Possible</a></li><li><a href="#colophon">Colophon</a></li></ol>
+<ol><li><a href="#note_to_readers">Note to Readers</a></li><li><a href="#the_woman_who_vanished">The Woman Who Vanished</a></li><li><a href="#the_woman_who_vanished_2">The Woman Who Vanished</a></li><li><a href="#the_woman_who_vanished_3">The Woman Who Vanished</a></li><li><a href="#as_easy_as_abcd">As Easy As ABCD</a></li><li><a href="#the_painter_s_algorithm">The Painter’s Algorithm</a></li><li><a href="#three_coffees">Three Coffees</a></li><li><a href="#the_sea_witch">The Sea-Witch</a></li><li><a href="#the_machine">The Machine</a></li><li><a href="#the_presser">The Presser</a></li><li><a href="#entra_la_lengua">Entra La Lengua</a></li><li><a href="#shark_teeth">Shark Teeth</a></li><li><a href="#basilisk_house">Basilisk House</a></li><li><a href="#the_sunken_ship">The Sunken Ship</a></li><li><a href="#the_new_golden_gate">The New Golden Gate</a></li><li><a href="#one_of_the_good_ones">One of the Good Ones</a></li><li><a href="#alignment">Alignment</a></li><li><a href="#best_of_all_possible">Best of All Possible</a></li><li><a href="#colophon">Colophon</a></li></ol>
 </div>
 </nav>
 
@@ -434,14 +472,14 @@ July 2020</p>
 
 <p><small>The burrito cannons blared at noon</small>, and into the sky above the city a fusillade of foil tubes went sailing: carnitas, carne asada, veggie supreme. They traced high glinting parabolas, hanging perfectly still at the apex, then accelerating earthward until their napkin-parachutes deployed. Pedestrians turned, arms outstretched. Cyclists pulled over; the moving catch, though tempting, was nearly impossible.</p>
 
-<h2 id="chapter_the_woman_who_vanished">
-<a href="#the_woman_who_vanished">The Woman Who Vanished</a>
+<h2 id="chapter_the_woman_who_vanished_2">
+<a href="#the_woman_who_vanished_2">The Woman Who Vanished</a>
 </h2>
 
 <p><small>The burrito cannons blared at noon</small>, and into the sky above the city a fusillade of foil tubes went sailing: carnitas, carne asada, veggie supreme. They traced high glinting parabolas, hanging perfectly still at the apex, then accelerating earthward until their napkin-parachutes deployed. Pedestrians turned, arms outstretched. Cyclists pulled over; the moving catch, though tempting, was nearly impossible.</p>
 
-<h2 id="chapter_the_woman_who_vanished">
-<a href="#the_woman_who_vanished">The Woman Who Vanished</a>
+<h2 id="chapter_the_woman_who_vanished_3">
+<a href="#the_woman_who_vanished_3">The Woman Who Vanished</a>
 </h2>
 
 <p><small>The burrito cannons blared at noon</small>, and into the sky above the city a fusillade of foil tubes went sailing: carnitas, carne asada, veggie supreme. They traced high glinting parabolas, hanging perfectly still at the apex, then accelerating earthward until their napkin-parachutes deployed. Pedestrians turned, arms outstretched. Cyclists pulled over; the moving catch, though tempting, was nearly impossible.</p>
@@ -1542,7 +1580,7 @@ We had discovered a plot hatched in a different timeline to collapse all possibl
 
 <p class="last-page"></p>
 
-<div id="bookmark">
+<div class="bookmark">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 40 80" xml:space="preserve">
 <g>
 <polygon points="0,0 0,80 20,70 40,80 40,0"/>
@@ -1554,7 +1592,7 @@ We had discovered a plot hatched in a different timeline to collapse all possibl
 
 <div class="shadow-page-container"></div>
 
-<button id="toc-button">
+<button class="toc-button">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 80 40" xml:space="preserve">
 <g>
 <rect x="0" y="10" width="5" height="1" />
