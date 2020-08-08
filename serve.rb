@@ -1,4 +1,4 @@
-require "webrick"
+  require "webrick"
 require "listen"
 
 template_listener = Listen.to("source/", {wait_for_delay: 2}) do |modified, added, removed|
@@ -9,7 +9,7 @@ end
 
 template_listener.start
 
-port = ARGV[0] || 8000
+port = ARGV[0] || 8001
 
 class NonCachingFileHandler < WEBrick::HTTPServlet::FileHandler
   def prevent_caching(res)

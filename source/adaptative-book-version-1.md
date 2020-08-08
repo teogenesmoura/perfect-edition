@@ -1,18 +1,16 @@
 ## Note to Readers
 
-This story was initially published as a daily serial in two Bay Area newspapers, the *Mercury News* and *East Bay Times*, in 2020. It ran from June 7 to June 21. The whole thing was written in the two weeks prior: a stressful, exciting rush. All in all, it was one of the great surprises and delights of my writing career so far.
+This is a first draft of a series of experiments I'm working on with textual content which is based on real-world variables. In the past decades, a lot of technologies have come to the spotlight bringing forth concepts only priorly seen in science fiction stories such as deep learning, blockchain and virtual reality. Meanwhile, the world is facing challenges in a scale we couldn't have predicted and it all seems much more intense due to the ever-connected culture the internet has brought to life.
 
-I wrote the story, but its true instigator was Jackie Burrell at the Bay Area News Group. Daily serialization was her idea, and her thoughtful edits are evident in every chapter. I'm grateful for her ingenuity and skill.
+The junction between the two realities has always seemed inevitable to me. We build things to make live easier. Which, by its turn, only means we desperately desire to have the time to take good care of the ones we love, to fulfill whichever potentialities we believe we have - regardless of how intimate they might seem - and to admire human existence in all of its aspects.
 
-This story wears its origin on its sleeve. Initially, I had edited out each chapter's little introductory line, intended to reorient the daily newspaper reader to the action. Reading it straight through, they're repetitive and a bit "duh." But, after they were gone, I discovered that I missed them! Their dorky energy; the breathless, retro sense of "last week on *Annabel Scheme*!"
+This short story is at the same time about the power of community and fear-facing, brave individuals. Blockchain inspires the first and several of my closest friends the latter. A community built on trust which brings to life a global-scale cryptography-based currency is only as strong as the hearts and minds of its individuals, specially the ones who delve themselves into the realm of complicated abstractions and turn them into user facing experiences. The duality between the mind and the heart has always intrigued me and I introduce it to you by the means of Anne-Day Turin, who you'll meet very soon.
 
-Part of the assignment I set for myself was to produce a work of *ridiculously regional fiction*. Jackie's invitation arrived in the early days of the pandemic, and there was something powerfully appealing about writing a story not only *about* but *for* this very specific place that is my home. To be honest, I do worry that this feature makes the story less accessible and/or interesting to readers with no knowledge of the Bay Area... but, there's only one way to find out! It goes without saying that I have stood in every spot and driven every road mentioned in these pages.
+I'm having a very nice time working on this project and thinking about Ann, her world and the poetic intersection between technological abstractions and human emotions and feelings. I hope you do too.
 
-This adventure is neither sequel nor prequel to the <a href="https://www.robinsloan.com/annabel-scheme" target="_blank">original Annabel Scheme novella</a> published in 2009. It is instead... another possibility. Scheme fans will understand.
-
-<p class="spacetime">Robin Sloan<br/>
-Rotten City<br/>
-July 2020</p>
+<p class="spacetime"> Teógenes Moura <br/>
+Brasília, Brazil<br/>
+August 2020</p>
 
 # Week 1
 
